@@ -1,5 +1,3 @@
-
-
 #include<iostream>
 using namespace std;
 class B;
@@ -13,6 +11,7 @@ class A
     }
     friend void compare(A p,B q);
 };
+
 
 class B 
 {
