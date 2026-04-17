@@ -21,10 +21,10 @@ public:
     }
 
     // Copy constructor
-    Point(const Point &p1)
+    Point(const Point &p)
     {
-        x = p1.x;
-        y = p1.y;
+        x = p.x;
+        y = p.y;
     }
 
     // Getter functions

@@ -11,7 +11,7 @@ public:
         cout << "\nA box object has been created " << endl;
         cout << "Current Count = " << count << endl;
     }
-    // Destructor
+// Destructor
     ~Box()
     {
         count--;
