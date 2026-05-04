@@ -6,18 +6,11 @@ using namespace std;
 class Employee
 {
 private:
-	string name;
-	int empid;
 	double basic,gross,net,da,it;
 	
 public:
 	void read_det() 
 	{	
-		
-        cout <<"Enter employee name:"<<endl;
-        cin>>name;
-        cout <<"Enter employee ID:"<<endl;
-        cin >>empid;
         cout <<"Enter basic salary:"<<endl;
         cin >> basic;
         cout<<"Enter DA:"<<endl;
@@ -30,8 +23,6 @@ public:
     {
     	gross = basic + ((da/100) * basic);
         net = gross - ((it/100) * gross);
-        cout <<"Name of the employee: "<< name << endl;
-        cout <<"Employee ID: "<<empid<<endl;
         cout <<"Gross salary = "<<gross<<endl;
         cout <<"Net salary = "<<net<<endl;
          cout<<"Basic salary = " << basic <<endl;

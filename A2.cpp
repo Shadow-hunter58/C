@@ -7,7 +7,7 @@ class Box {
 public:
    
     Box(int l) {
-        length = l;
+        length = l;     
     }
 
    
